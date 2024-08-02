@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+   padding: 0%;
+   font-family: 'Times New Roman', Times, serif;
+   border:border-box;
+}
+.navbar{
+    height: 138px;
+    background-color:rgb(20, 20, 77);
+    color:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    height:52px;
+    width: 360px;
+}
+a{
+    margin-left: 30px; 
+    color: red;
+    font-family: z;
+    font-style: BOLD;
+    font-size:16 ;
+    text-decoration:underline dashed;
+}
+a:hover{
+    color:#ffffff;
+}
+#a1{
+    color:#ffffff;
+}
+#s{
+    border: 3px solid rgb(224, 230, 47);
+    border-radius: 500px;
+    text-align: center;
+    font-size: 12px ;
+}
+h3:hover{
+    color: blue;
+    text-decoration:underline dashed;
+}
+body{
+    background-color: whitesmoke;
+}
+.back{
+    color: #4E5944;
+    height: 390px;
+    width:100%;
+
+}
+.content{
+    height: 100;
+    width:960px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 15px;
+    border:1px solid white;
+    margin-left:45px;
+    background-color: #E9E9E9;
+}
+.image{
+    height:100;
+    width:200;
+    background-size: cover;
+}
+.content3{
+    background-color: white;
+    height: 490;
+    width: 100%;
+    color: #4E5944;
+    padding-top: 40px;
+    display: flex;
+}
+.main{
+    margin-top: 20px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:white;
+    font-style:italic;
+ }
+.divv{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    line-height: 30px;
+}
+.img{
+    height: 250px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+ }
+ .img:hover{
+    transform: scale(1.1);
+ }
+ 
+.cont-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 3px solid white;
+    
+}
+h4{
+    font-size: 14px;
+    text-align: center;
+    color:white;
+}
+.cont{
+    height:120;
+    width: 220;
+    color: #4E5944; 
+    padding-top: 30px;   
+}
+.content4{
+    height:250px;
+    width:100%;
+    background-color:rgb(20, 20, 77);
+    display:flex;
+   color:white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+.head14{
+
+    text-align: left;
+    padding-top: 15px;
+    height: 250;
+    width: 250;
+    border-left: 0.5px dotted rgb(106, 104, 104);
+}
+.last{
+    height: 25px;
+    width: 25px;
+    
+}
