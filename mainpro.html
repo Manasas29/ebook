@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainpro.css">
+</head>
+<body>
+    <header >
+        <div class="navbar">   
+            <div class="nav_logo">
+                <div class="logo">
+                   <h1>Glittering Galaxy</h1>
+                </div>
+            </div>   
+            <div>
+                <span>
+                    <input id="s" type="text"  placeholder="SEARCH" name="" id="name">
+                    <a id="a1" href="">HOME</a>
+                    <a  href="about.html">ABOUT</a>
+                    <a href="library.html">LIBRARY</a>
+                    <a href="">CONTACT</a>
+                </span>
+            </div>
+        </div>
+    </header>
+        <div class="content">
+            <div class="image">
+                <img src="story3.png" alt="error">
+            </div>
+        </div>
+       
+        <div>
+            <div class="main">
+                <div class="divv"><img  class="img" src="action.jpg">
+                    <a href="https://r.search.yahoo.com/_ylt=AwrKCyNtv6tmHQM5ycu7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1722560494/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fAvengers_%28comics%29/RK=2/RS=DRBuOnKb3kbrjs7prbgSU4ZXhdk-"><h3>Action stories</h3></a>
+                   
+                </div>
+                <div class="divv"><img  class="img" src="adventure.jpg">
+                    <a href="https://storyleo.com/adventure/elaras-quest-finding-wisdom-and-courage-in-azura"><h3>Adventure stories</h3></a>
+                </div>
+                <div class="divv"><img  class="img" src="horror.jpg">
+                    <h3>Horror stories</h3>
+                </div>
+                <div class="divv"><img  class="img" src="sports.jpg">
+                    <h3>Sports stories</h3>
+                   
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="main">
+                <div class="divv"><img  class="img" src="thriller.jpg">
+                    <h3>Thriller stories</h3>
+                   
+                </div>
+                <div class="divv"><img  class="img" src="mystery.jpg">
+                    <h3>Mystery stories</h3>
+                </div>
+                <div class="divv"><img  class="img" src="history.jpg">
+                    <h3>Historical stories</h3>
+                </div>
+                <div class="divv"><img  class="img" src="science.jpg">
+                    <h3>Science stories</h3>
+                   
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="main">
+                <div class="divv"><img  class="img" src="fantasy.jpg">
+                    <h3>Fantasy stories</h3>
+                </div>
+                <div class="divv"><img  class="img" src="fiction.jpg">
+                    <h3>Fictional stories</h3>
+                </div>
+                <div class="divv"><img  class="img" src="motivation.webp">
+                    <h3>Motivational stories</h3>
+                </div>
+                <div class="divv"><img  class="img" src="nonfiction.jpg">
+                    <h3>Nonfictional stories</h3>
+                   
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="main">
+                <div class="divv"><img  class="img" src="fairytale.jpeg">
+                    <h3>Fairytales</h3>
+                </div>
+                <div class="divv"><img  class="img" src="funny.avif">
+                    <h3>Funny stories</h3>
+                </div>
+                <div class="divv"><img  class="img" src="moral.jpg">
+                    <h3>Moral stories</h3>
+                </div>
+                <div class="divv"><img  class="img" src="shortsto.jpg">
+                    <h3>Short stories</h3>
+                   
+                </div>
+            </div>
+        </div>
+        
+<footer>
+        <div class="content4">
+            <div class="head14">
+                <h4>Content box</h4>
+                <pre class="pre13">
+                    Horror stories
+                    Fairy tales
+                    Action stories
+                    Adventure stories
+                    Fictional stories
+                    Moral stories
+                    Short stories
+                    Funny stories
+                    Historical stories
+                </pre>
+             </div>
+            <div class="head14">
+            <h4>
+                CONTACT US
+        
+            </h2>
+            <pre class="pre12">
+                ADDRESS: 571401 Mandya
+                PHONE: (+91) 0123456789
+                EMAIL: ebook29@gmail.com
+            </pre>
+            </div>
+            <div class="head14">
+                <h4>
+                    SEND US A MESSAGE
+                 </h4>
+                <pre class="pre12">
+                    If you need a quote, don't hesistate to contact 
+                    us.
+                </pre>
+                </div>
+                <div>
+                <div>
+                    <a class="last"><img  class="last" src="facebook.p.avif "></a>
+                </div>
+                <div>
+                    <a class="last"><img  class="last" src="teli.jpeg"></a>
+                </div>
+                </div>
+        </div>
+       
+    </div>
+   <!--<script >
+        document.addEventListener('DOMContentLoaded', () => {
+    const books = [
+        { title: 'Book 1', content: 'This is the content of Book 1.' },
+        { title: 'Book 2', content: 'This is the content of Book 2.' },
+        { title: 'Book 3', content: 'This is the content of Book 3.' }
+    ];
+
+    const bookList = document.getElementById('book-list');
+    const bookContent = document.getElementById('book-content');
+
+    // Populate the book list
+    books.forEach((book, index) => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = '#';
+        a.textContent = book.title;
+        a.addEventListener('click', () => displayBookContent(index));
+        li.appendChild(a);
+        bookList.appendChild(li);
+    });
+
+    // Display the content of the first book by default
+    displayBookContent(0);
+
+    // Function to display book content
+    function displayBookContent(index) {
+        bookContent.textContent = books[index].content;
+    }
+});
+
+    </script>-->
+</body>
+</html>
